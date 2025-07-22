@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Appointments</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h1>🏥 Hospital Management</h1>
+    <ul>
+      <li><a href="index.html">Dashboard</a></li>
+      <li><a href="patients.html">Patients</a></li>
+      <li><a href="doctors.html">Doctors</a></li>
+      <li><a href="appointments.html">Appointments</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Schedule Appointments</h2>
+
+    <form id="appointmentForm">
+      <select id="patientSelect" required>
+        <option value="">Select Patient</option>
+      </select>
+
+      <select id="doctorSelect" required>
+        <option value="">Select Doctor</option>
+      </select>
+
+      <input type="datetime-local" id="apptDate" required>
+      <button type="submit">Schedule</button>
+    </form>
+
+    <input type="text" id="searchAppointment" placeholder="Search by patient or doctor">
+
+    <table>
+      <thead>
+        <tr>
+          <th>Patient</th>
+          <th>Doctor</th>
+          <th>Date & Time</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="appointmentTableBody">
+        <!-- Appointment rows -->
+      </tbody>
+    </table>
+  </main>
+
+  <footer>Project by Sakshi</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
