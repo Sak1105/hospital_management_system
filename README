@@ -1,0 +1,37 @@
+# 🏥 Hospital Management System (Frontend Only)
+
+A simple and responsive Hospital Management System built using *HTML, CSS, and JavaScript*. This project is entirely frontend-based and uses localStorage to store and manage data like patients, doctors, and appointments.
+
+---
+
+## 📌 Features
+
+- ✅ Add & Delete Patients
+- ✅ Add Doctors
+- ✅ Schedule Appointments
+- ✅ Search & Filter Patients, Doctors, and Appointments
+- ✅ Responsive Design (Mobile & Desktop)
+- ✅ Data persistence using localStorage
+- ✅ Clean Light Mode UI
+
+---
+
+## 📁 Pages Overview
+
+| Page              | Description                          |
+|-------------------|--------------------------------------|
+| index.html      | Dashboard & Navigation               |
+| patients.html   | Add, View, Delete Patients           |
+| doctors.html    | Add, View, Delete Doctors            |
+| appointments.html | Schedule & View Appointments       |
+
+---
+
+## 💡 Tech Stack
+
+- *HTML5*
+- *CSS3*
+- *JavaScript (ES6)*
+- *localStorage* for client-side data
+
+---
