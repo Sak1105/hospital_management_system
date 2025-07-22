@@ -1,0 +1,51 @@
+<!-- doctors.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Doctor Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h1>🏥 Hospital Management</h1>
+    <ul>
+      <li><a href="index.html">Dashboard</a></li>
+      <li><a href="patients.html">Patients</a></li>
+      <li><a href="doctors.html">Doctors</a></li>
+      <li><a href="appointments.html">Appointments</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Manage Doctors</h2>
+
+    <form id="doctorForm">
+      <input type="text" id="dname" placeholder="Doctor Name" required>
+      <input type="text" id="ddept" placeholder="Department" required>
+      <input type="text" id="dcontact" placeholder="Contact Number" required>
+      <button type="submit">Add Doctor</button>
+    </form>
+
+    <input type="text" id="searchDoctor" placeholder="Search by name or department">
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Department</th>
+          <th>Contact</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="doctorTableBody">
+        <!-- Doctor rows will go here -->
+      </tbody>
+    </table>
+  </main>
+
+  <footer>Project by Sakshi</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
